@@ -1,0 +1,10 @@
+function_id,kappa_delta,tr_halfwidth_override,n_candidates_multiplier,notes
+1,-0.2,0.10,1.5,"8 weeks exploration failed to escape near-zero → SWITCH to exploitation | Maybe optimum IS near zero - need precision refinement | Narrow TR to focus around recent samples | New approach after persistent failure"
+2,0.8,0.30,2.5,"MAJOR CRASH -70.6% (0.482 → 0.142) → EMERGENCY exploration | W8 moderate strategy (κ=0.3) catastrophically failed | Aggressive wide search to escape poor region and return toward 0.671 best | Very wide TR + many candidates for thorough search"
+3,0.5,0.22,2.0,"RECOVERY SUCCESS +67.9% (-0.418 → -0.134) → continue strong exploration | W8 emergency (κ=0.7) worked brilliantly - now consolidate | Maintain momentum toward -0.065 best | Slightly reduce intensity from 0.7 to 0.5 for stability"
+4,-0.4,0.12,1.5,"AMAZING RECOVERY +102.8% → NEW BEST 0.669! → EXPLOIT to lock in peak | Emergency exploration found excellent region - now refine | Moderately tight TR to push past 0.7 while protecting gains | First time above 0.4 in weeks - don't disrupt"
+5,-0.5,0.08,1.2,"Stable excellence +0.8% (3785, 96% of best 3942) → maintain strong exploitation | Strategy working perfectly for multiple weeks | Very tight TR to inch back toward 3942 peak | Minimal exploration risk"
+6,0.2,0.18,1.6,"Overshot -20.3% (-0.766 → -0.921) → REDUCE exploration | W8 moderate (κ=0.4) too aggressive - dial back | Gentle search with tighter control to stabilize | Target: move toward -0.422 best without volatility"
+7,0.6,0.26,2.2,"MAJOR DROP -72.8% (0.560 → 0.152) → strong exploration to recover | Lost W7 breakthrough gains - W8 moderate (κ=0.5) failed | Aggressive but controlled search (not full emergency) | Target: recover to 0.5-1.0 range, eventual 1.472 best"
+8,-0.1,0.12,1.4,"Ultra-stable -0.3% (9.743, 98.2% of best 9.919) → maintain perfect strategy | Gentle exploitation working flawlessly for weeks | Continue precise refinement toward 9.919 | DON'T change winning formula - if it ain't broke don't fix it"
+

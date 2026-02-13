@@ -1,0 +1,12 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).parent.parent.resolve()
+RUNS_BASE = PROJECT_ROOT / "runs"
+WEEK = 13
+SEED = 123
+INITIAL_DATA_ROOT = PROJECT_ROOT / "initial_data"
+GLOBAL_CANDS_LOW_DIM = 20000
+GLOBAL_CANDS_HIGH_DIM = 45000
+MIN_CANDS = 3000
+TR_FRACTION = 0.5
+PLOT_DPI = 150

@@ -1,0 +1,10 @@
+function_id,kappa_delta,tr_halfwidth_override,n_candidates_multiplier,notes
+1,0.3,0.18,2.0,"Still near zero (W7: -6.02e-49) - moderate exploration | W6-W7 recovered from negative but still minimal | Need broader search while avoiding extreme moves"
+2,0.3,0.18,1.8,"Slow steady climb (+2.2%, 0.4817) - moderate exploration | Best: 0.6708 still ahead - increase search to break plateau | Need stronger push upward"
+3,0.7,0.28,2.5,"MAJOR REGRESSION (-549%, -0.0645 to -0.4183) - emergency exploration | W7 strategy failed badly | Aggressive search to escape poor region | Target: return to approx -0.0645"
+4,0.7,0.28,2.5,"MAJOR REGRESSION (-6716%, 0.3605 to -23.8513) - emergency exploration | W7 strategy failed badly | Aggressive search to escape poor region | Target: return to approx 0.4043"
+5,-0.5,0.08,1.2,"High performer stable (3755.1, -4.7% from peak) - strong exploitation | W6 peak: 3942.1 - tight refinement | Lock in high-value region | Minimal exploration"
+6,0.4,0.22,2.0,"Strong recovery (+57.1%, -1.7871 to -0.7659) - moderate exploration | W7 exploration succeeded, balance to consolidate | Still below best (-0.4222) - keep searching"
+7,0.5,0.24,2.2,"HUGE breakthrough (+1357%, 0.0384 to 0.5595) - continue exploration to build on success | Best: 1.4717 still ahead | Strong exploration to find even better regions"
+8,-0.1,0.12,1.4,"Strong stable performer (9.77) - gentle exploitation | Near best (9.92) - careful refinement | Avoid disrupting good performance"
+

@@ -1,0 +1,226 @@
+# =====================================================
+# Python Environment
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# =====================================================
+# Virtual Environments
+# =====================================================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+env.bak/
+venv.bak/
+
+# =====================================================
+# Jupyter Notebook
+# =====================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+jupyter_notebook_config.py
+
+# =====================================================
+# IDE & Editors
+# =====================================================
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.netrwhist
+Session.vim
+\#*\#
+.#*
+
+# =====================================================
+# OS-Specific Files
+# =====================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================================
+# Project-Specific
+# =====================================================
+# Backups and temporary files
+*.bak
+*.bak.*
+*_backup.*
+*_BACKUP.*
+*COPY*
+*READY*
+backup/
+tmp*
+temp*
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Data backups (keep initial data, exclude backups)
+initial_data/*/backup/
+initial_data/*/*.bak*
+initial_data/*/tmp*
+
+# =====================================================
+# Logging
+# =====================================================
+*.log
+logs/
+*.log.*
+runs/logs/*.log
+
+# =====================================================
+# Testing & Coverage
+# =====================================================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+nosetests.xml
+test-results/
+
+# =====================================================
+# Type Checking & Linting
+# =====================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pylint.d/
+
+# =====================================================
+# Documentation Builds
+# =====================================================
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+.sphinx_cache/
+build/sphinx/
+
+# =====================================================
+# Archives
+# =====================================================
+*.tar.gz
+*.tar.bz2
+*.zip
+*.7z
+*.rar
+*.tgz
+runs_archive_*.tar.gz
+
+# =====================================================
+# Security & Sensitive Data
+# =====================================================
+*.pem
+*.key
+*.cert
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+.aws/
+.ssh/
+
+# =====================================================
+# Personal Notes
+# =====================================================
+PERSONAL_NOTES.md
+TODO.md
+NOTES.md
+SCRATCH.md
+
+# =====================================================
+# Archived Documentation
+# =====================================================
+WEEK*_REFLECTION.md
+WEEK*_SUMMARY.md
+*_REFLECTION_*.md
+*_SUMMARY_*.md
+OLD_*.md
+DEPRECATED_*.md
+docs/archive/
+docs/archive_originals/
+
+# =====================================================
+# Database Files
+# =====================================================
+*.db
+*.sqlite
+*.sqlite3
+

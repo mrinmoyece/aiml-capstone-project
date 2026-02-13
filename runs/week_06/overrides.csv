@@ -1,0 +1,9 @@
+function_id,kappa_delta,tr_halfwidth_override,n_candidates_multiplier,notes
+1,-0.3,0.08,2.3,"Declining (-100.0%) → explore (higher kappa, wider TR, more candidates) | Already near zero → refine locally"
+2,0.35,0.2,1.7,"Declining (-25.1%) → explore (higher kappa, wider TR, more candidates)"
+3,0.658,0.27,2.3,"Declining (-33.5%) → explore (higher kappa, wider TR, more candidates)"
+4,0.4,0.22,2.0,"Declining (-477.6%) → explore (higher kappa, wider TR, more candidates) | High volatility (1.01) → increase candidates for robustness | Negative spike → explore out of bad region"
+5,-0.4,0.09,1.2,"Declining (-48.9%) → explore (higher kappa, wider TR, more candidates) | Already excellent (best_y=3269.4) → careful exploitation"
+6,0.45,0.22,2.2,"Strong improvement (+58.0%) → exploit (lower kappa, tighter TR)"
+7,0.583,0.25,2.4,"Declining (-61.7%) → explore (higher kappa, wider TR, more candidates) | High volatility (0.72) → increase candidates for robustness | High-dim (6D) → ensure adequate sampling"
+8,-0.1,0.12,1.3,Stagnating (-0.6%) → explore to escape plateau | High-dim (8D) → ensure adequate sampling | Consistently high → exploit peak

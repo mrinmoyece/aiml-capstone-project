@@ -1,0 +1,9 @@
+function_id,decision,kappa_delta,n_candidates_multiplier,tr_halfwidth_override,z_last,sigma_at_best,notes
+1,exploit_local,-0.4,1.0,0.12,0.444,0.0,Latest y near local max.
+2,exploit_local,-0.4,1.0,0.12,1.608,0.038,Latest y near local max.
+3,balanced,0.0,1.0,,0.484,0.0,
+4,balanced,0.1,1.5,,0.93,0.533,High σ near incumbent.
+5,balanced,0.0,1.0,,1.417,0.046,
+6,balanced,0.0,1.0,,0.695,0.001,
+7,balanced,0.0,1.0,,-0.815,0.001,
+8,balanced,0.0,1.0,,0.361,0.0,
