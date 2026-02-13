@@ -1,0 +1,9 @@
+function_id,kappa_delta,tr_halfwidth_override,n_candidates_multiplier,notes
+1,0.2,0.15,2.0,"Regressed (-100.0%, 4.12e-76 → -4.61e-21) → explore back to near-zero | Week 6 over-exploitation moved away from optimum | Wider TR + more candidates for precision near zero"
+2,0.4,0.2,1.8,"Stagnating (+4.7%) → explore to break plateau | Consistently moderate (~0.45-0.47) → need stronger exploration | Increase kappa to find better regions"
+3,0.5,0.25,2.2,"Big improvement (+34.1%, -0.098 → -0.065) → continue strong exploration | Week 6 aggressive exploration worked (κ=0.658) → slightly reduce to consolidate while still searching | Maintain wide TR for 3D coverage"
+4,0.25,0.2,1.8,"Huge recovery (+127.1%, -1.33 → 0.36) → consolidate in positive region | Week 6 exploration escaped negative zone successfully | Reduce exploration to stabilize around good region | High volatility → maintain candidate safety margin"
+5,-0.45,0.08,1.2,"MASSIVE GAIN (+135.9%, 1670 → 3942 - BEST EVER!) → LOCK IN PEAK | Week 6 exploitation strategy validated perfectly | Tight TR to refine peak locally | Strong negative kappa for focused exploitation | Goal: maintain >3900"
+6,0.7,0.28,2.5,"Big drop (-118.8%, -0.82 → -1.79) → aggressive exploration needed | Week 6 balanced approach (κ=0.45) failed → switch to strong exploration | Escape poor region, return toward -0.8 or better | Wide TR + many candidates for thorough 5D search"
+7,0.6,0.26,2.3,"Slight decline (-10.1%, 0.043 → 0.038) → increase exploration | Week 6 exploration not quite enough (κ=0.583) → boost further | High-dim (6D) → ensure adequate sampling with more candidates | Wide TR for complex landscape"
+8,-0.05,0.13,1.4,"Stable improvement (+3.1%, 9.51 → 9.81) → gentle exploitation | Near historical best (~9.92) → careful nudge upward | High-dim (8D) → moderate candidates | Avoid disrupting good performance"

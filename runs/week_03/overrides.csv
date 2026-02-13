@@ -1,0 +1,9 @@
+function_id,kappa_delta,tr_halfwidth,n_candidates_multiplier,note
+1,0.4,,1.6,Explore harder; flat/very low y
+2,-0.3,0.1,1.0,Exploit; small TR around incumbent
+3,0.2,,1.3,Slight explore; widen candidate pool
+4,0.1,,1.1,Balanced; light explore
+5,-0.1,0.12,1.2,Exploit near peak; probe rim; medium TR
+6,0.3,,1.5,Explore; wider global search
+7,0.25,,1.5,Explore; uncertain response
+8,0.1,0.12,1.2,Exploit with some explore; medium TR

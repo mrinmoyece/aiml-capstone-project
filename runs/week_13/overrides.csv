@@ -1,0 +1,9 @@
+function_id,kappa_delta,tr_halfwidth_override,n_candidates_multiplier,notes
+1,-0.6,0.06,1.0,"FINAL: Week12=7.4e-15 OPTIMAL | Near-zero achieved | Maximum exploitation with tightest TR to lock in near-zero | Risk: Very Low | Goal: Maintain ~10^-15"
+2,-0.2,0.12,1.0,"FINAL: Week12=0.613 IMPROVED from 0.492 (+24.6%) | Now 91.4% of best 0.671 | Switch to light exploitation to refine this gain | Risk: Low | Goal: Push toward 0.65+"
+3,-0.1,0.12,1.2,"FINAL: Week12=-0.022 IMPROVED from -0.038 | Approaching best -0.005 | Gentle exploitation with slight extra candidates | Risk: Low | Goal: Reach -0.01 or better"
+4,0.2,0.15,1.3,"FINAL: Week12=0.601 DROPPED from 0.669 NEW BEST (-10%) | Best=0.669 still in data | Moderate exploration to recover peak region | Risk: Medium | Goal: Return to 0.65+"
+5,0.3,0.18,1.5,"FINAL: Week12=3875 DROPPED from 4166 (-7%) | Best=4166 still achievable | Exploration to recover NEW BEST region not over-exploit | Risk: Medium-High | Goal: Return toward 4000+"
+6,0.1,0.15,1.2,"FINAL: Week12=-0.346 IMPROVED from -0.598 (+42%) | Best=-0.346 is NEW BEST! | Light exploration to refine this breakthrough | Risk: Low | Goal: Maintain or improve -0.35"
+7,-0.2,0.12,1.0,"FINAL: Week12=0.279 MASSIVE RECOVERY from 0.061 (+358%) | Emergency mode WORKED! | Now exploit this breakthrough region | Risk: Low | Goal: Stay above 0.25 refine toward 0.30+"
+8,-0.3,0.10,1.0,"FINAL: Week12=9.83 IMPROVED from 9.677 (+1.6%) | 98.6% of best 9.965 | Strong exploitation for final push to optimum | Risk: Very Low | Goal: Approach 9.90+"
